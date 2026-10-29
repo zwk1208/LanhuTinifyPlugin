@@ -1,0 +1,11 @@
+<idea-plugin>
+    <id>com.lanhu.tinify</id>
+    <name>Lanhu Resource Assistant</name>
+    <vendor email="support@lanhu.com" url="https://github.com/">Lanhu</vendor>
+    <description><![CDATA[使用 Tinify 导入并按需压缩 Android PNG、JPEG 和 WebP 资源；支持通过登录态读取有权限的蓝湖设计稿图片，不解析蓝湖网页 DOM。工具窗口采用中文界面。]]></description>
+    <depends>com.intellij.modules.platform</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Lanhu Resource Assistant" anchor="right" factoryClass="com.lanhu.tinify.TinifyToolWindowFactory" />
+        <notificationGroup id="Lanhu Resource Assistant" displayType="BALLOON" />
+    </extensions>
+</idea-plugin>

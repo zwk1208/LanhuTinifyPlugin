@@ -1,0 +1,19 @@
+# Gradle
+.gradle/
+build/
+
+# Kotlin and IntelliJ Platform caches
+.kotlin/
+.intellijPlatform/
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+out/
+
+# Local machine configuration
+local.properties
+
+# Logs and temporary files
+*.log
+*.tmp
